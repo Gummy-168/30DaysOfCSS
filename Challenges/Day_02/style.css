@@ -1,6 +1,6 @@
 body {
-    background-color: #E67BAB;
-    
+    background-color: black;
+
 }
 
 .center {
@@ -16,7 +16,8 @@ body {
     border-radius: 50%;
     box-shadow: 0 5px 0 white;
     background: transparent;
-    animation: animate 1s linear infinite;
+    animation: animate 2s linear infinite;
+    filter: blur(3px);
 }
 
 .loading {
@@ -24,7 +25,7 @@ body {
     box-shadow: 0 0 5px rgba(224, 220, 220, 0.253);
     font-family: 'Ubuntu Mono', monospace;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -37,6 +38,7 @@ body {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
