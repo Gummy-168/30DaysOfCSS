@@ -1,5 +1,5 @@
 body {
-    background: #3bc9ceaf;
+    background: #052e30af;
 }
 
 .center {
@@ -10,7 +10,7 @@ body {
 }
 
 .fas {
-  font-size: 5em!important;
+    font-size: 5em !important;
 }
 
 
@@ -18,8 +18,9 @@ body {
     width: 120px;
     height: 120px;
     color: white;
+    filter: blur(3px);
     border-radius: 50%;
-    background-color: #d37fb4;
+    background-color: #65a1fa;
     line-height: 120px;
     animation: animate 3s linear infinite;
     justify-content: center;
@@ -30,20 +31,22 @@ body {
 
 @keyframes animate {
     0% {
-        box-shadow: 0 0 0 0 #d351a3d3, 
-        0 0 0 0 #cc3394d3;
+        box-shadow: 0 0 0 0 #123c7a,
+            0 0 0 0 #123c7a;
     }
+
     40% {
-        box-shadow: 0 0 0 20px #b95a96cc, 
-        0 0 0 0 #8d336aaf;
+        box-shadow: 0 0 0 20px #123c7a,
+            0 0 0 0 #071c3b;
     }
+
     80% {
-        box-shadow: 0 0 0 30px #792359cc,
-        0 0 0 30px #702e589f;
+        box-shadow: 0 0 0 30px #071c3b,
+            0 0 0 30px #071c3b;
     }
+
     100% {
-        box-shadow: 0 0 0 0 40px #7e1758cc, 
-        0 0 0 40px  #aa398186;
+        box-shadow: 0 0 0 0 40px #020e1f,
+            0 0 0 40px #020e1f;
     }
 }
-
